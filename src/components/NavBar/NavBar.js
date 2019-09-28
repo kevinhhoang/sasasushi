@@ -1,4 +1,6 @@
 import React from "react";
+import i18next from "i18next";
+import { withTranslation } from "react-i18next";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faAngleDown } from "@fortawesome/free-solid-svg-icons";
@@ -6,12 +8,13 @@ import "./NavBar.css";
 import mainLogo1 from "./mainLogo1.png";
 
 class NavBar extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       showMenu: false,
-      showSubMenu: false
+      showSubMenu: false,
+      value: i18next.language
     };
   }
 
@@ -31,8 +34,16 @@ class NavBar extends React.Component {
     this.setState({ showSubMenu: !showSubMenu });
   };
 
+  changeLanguage = e => {
+    const lng = e.target.value;
+    this.setState({ value: lng }, () => {
+      i18next.changeLanguage(lng);
+    });
+  };
+
   render() {
     const { showMenu, showSubMenu } = this.state;
+    const { t } = this.props;
 
     const MenuLink = ({ to, children }) => {
       return (
@@ -51,7 +62,7 @@ class NavBar extends React.Component {
           <ul className={`nav-links ${showMenu ? "showMenu" : ""}`}>
             <li className="menu-container">
               <div className="menu-link">
-                <MenuLink to="/menus/alacarte">Menu</MenuLink>
+                <MenuLink to="/menus/alacarte">{t("menu")}</MenuLink>
                 <FontAwesomeIcon
                   onClick={this.handleClickSubMenu}
                   className="submenu-icon"
@@ -60,21 +71,29 @@ class NavBar extends React.Component {
               </div>
               <ul className={`submenu ${showSubMenu ? "showSubMenu" : ""}`}>
                 <li>
-                  <MenuLink to="/menus/alacarte">A La Carte</MenuLink>
+                  <MenuLink to="/menus/alacarte">{t("alacarte")}</MenuLink>
                 </li>
                 <li>
-                  <MenuLink to="/menus/lunch">Lunch</MenuLink>
+                  <MenuLink to="/menus/lunch">{t("lunch")}</MenuLink>
                 </li>
                 <li>
-                  <MenuLink to="/menus/supper">Supper</MenuLink>
+                  <MenuLink to="/menus/supper">{t("supper")}</MenuLink>
                 </li>
               </ul>
             </li>
             <li>
-              <MenuLink to="/gallery">Gallery</MenuLink>
+              <MenuLink to="/gallery">{t("gallery")}</MenuLink>
             </li>
             <li>
-              <MenuLink to="/contact">Contact</MenuLink>
+              <MenuLink to="/contact">{t("contact")}</MenuLink>
+            </li>
+            <li>
+              <button type="button" onClick={this.changeLanguage} value="en">
+                EN
+              </button>
+              <button type="button" onClick={this.changeLanguage} value="fr">
+                FR
+              </button>
             </li>
           </ul>
 
@@ -89,4 +108,4 @@ class NavBar extends React.Component {
   }
 }
 
-export default NavBar;
+export default withTranslation("translations")(NavBar);

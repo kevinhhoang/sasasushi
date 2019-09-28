@@ -9,7 +9,7 @@ import Lunch from "./components/Menus/Lunch/Lunch";
 import Supper from "./components/Menus/Supper/Supper";
 import Gallery from "./components/Gallery/Gallery";
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <div>
@@ -23,6 +23,6 @@ function App() {
       </div>
     </BrowserRouter>
   );
-}
+};
 
 export default App;

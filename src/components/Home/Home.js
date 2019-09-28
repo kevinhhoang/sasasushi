@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Grid from "./Grid.png";
+import Grid from "./grid.jpg";
 
 const Home = () => {
   return (
