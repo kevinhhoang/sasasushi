@@ -1,15 +1,11 @@
 import React from "react";
 import "./Footer.css";
-import Location from "./Location.png";
-import Hours from "./Hours.png";
-import Contact from "./Contact.png";
 
 const Footer = () => {
   return (
     <footer className="footer-container">
       <div className="container1">
-        {/* <h3>Location</h3> */}
-        <img className="footer-image" src={Location} alt="logo" />
+        <h3 className="footer-title">Location</h3>
         <p className="footer-text">
           71 Chemin St-Francois-Xavier
           <br />
@@ -17,8 +13,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="container1">
-        {/* <h3>Hours</h3> */}
-        <img className="footer-image" src={Hours} alt="logo" />
+        <h3 className="footer-title">Hours</h3>
         <p className="footer-text">
           Tuesday - Friday | 11:30pm - 2pm <br />
           Tuesday, Wednesday, Sunday | 5pm - 8pm <br />
@@ -26,8 +21,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="container1">
-        {/* <h3>Contact</h3> */}
-        <img className="footer-image" src={Contact} alt="logo" />
+        <h3 className="footer-title">Contact</h3>
         <p className="footer-text">
           <a href="tel:+14506320559">450.632.0559</a> <br />
           sasasushi@gmail.com

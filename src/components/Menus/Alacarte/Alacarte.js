@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import "./Alacarte.css";
 
-const Alacarte = () => {
+const Alacarte = ({ value }) => {
   const { t } = useTranslation();
 
   return (
@@ -12,18 +12,27 @@ const Alacarte = () => {
         <div className="menu-sidebar">
           <ul>
             <li>
-              <NavLink className="sidebar-menu_link" to="/menus/alacarte">
-                A LA CARTE
+              <NavLink
+                className="sidebar-menu_link"
+                to={`/${value}/menus/${t("urlalacarte")}`}
+              >
+                {t("sbalacarte")}
               </NavLink>
             </li>
             <li>
-              <NavLink className="sidebar-menu_link" to="/menus/lunch">
-                LUNCH
+              <NavLink
+                className="sidebar-menu_link"
+                to={`/${value}/menus/${t("urllunch")}`}
+              >
+                {t("sblunch")}
               </NavLink>
             </li>
             <li>
-              <NavLink className="sidebar-menu_link" to="/menus/supper">
-                SUPPER
+              <NavLink
+                className="sidebar-menu_link"
+                to={`/${value}/menus/${t("urlsupper")}`}
+              >
+                {t("sbsupper")}
               </NavLink>
             </li>
           </ul>
@@ -166,7 +175,7 @@ const Alacarte = () => {
                 <p className="food-title">
                   Tekka Maki <span> 6.00 </span>
                 </p>
-                <p className="food-description">{t("tekamaki")}</p>
+                <p className="food-description">{t("tekkamaki")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
@@ -232,7 +241,7 @@ const Alacarte = () => {
                 <p className="food-title">
                   Tempura <span> 6.00 </span>
                 </p>
-                <p className="food-description">{t("tempura")}</p>
+                <p className="food-description">{t("tempuraroll")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
@@ -335,204 +344,182 @@ const Alacarte = () => {
           </div>
 
           <div className="food-category">
-            <h2 className="underline-category"> Veggie Maki </h2>
+            <h2 className="underline-category">{t("cattitle3")}</h2>
             <ul>
               <li className="food-item">
                 <p className="food-title">
                   Kappa Maki <span> 4.00 </span>
                 </p>
-                <p className="food-description">Cucumber Roll</p>
+                <p className="food-description">{t("kappamaki")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Avocado Maki <span> 4.25 </span>
                 </p>
-                <p className="food-description">Avocado Roll</p>
+                <p className="food-description">{t("avocadomaki")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Oshinko <span> 4.25 </span>
                 </p>
-                <p className="food-description">Marinated Radish, Cucumber</p>
+                <p className="food-description">{t("oshinko")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Yasaimaki <span> 6.50 </span>
+                  Mushi Yasai <span> 6.50 </span>
                 </p>
-                <p className="food-description">Steamed Vegetables</p>
+                <p className="food-description">{t("mushiyasai")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Shoujin age <span> 6.50 </span>
                 </p>
-                <p className="food-description">Vegetable Tempura</p>
+                <p className="food-description">{t("shoujinage")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Sicili <span> 6.50 </span>
                 </p>
-                <p className="food-description">Saute Vegetables</p>
+                <p className="food-description">{t("sicili")}</p>
               </li>
             </ul>
           </div>
 
           <div className="food-category">
-            <h2 className="underline-category"> Sasa Sushi Speciality </h2>
+            <h2 className="underline-category">{t("cattitle4")}</h2>
             <ul>
+              <li className="food-item">
+                <p className="food-title">
+                  {t("tunaspecialtitle")} <span> 17.00 </span>
+                </p>
+                <p className="food-description">{t("tunaspecial")}</p>
+              </li>
+              <li className="food-item">
+                <p className="food-title">
+                  La Nina <span> 17.00 </span>
+                </p>
+                <p className="food-description">{t("lanina")}</p>
+              </li>
+              <li className="food-item">
+                <p className="food-title">
+                  Avalanche <span> 17.00 </span>
+                </p>
+                <p className="food-description">{t("avalanche")}</p>
+              </li>
+              <li className="food-item">
+                <p className="food-title">
+                  Soleil Candiac <span> 17.00 </span>
+                </p>
+                <p className="food-description">{t("soleilcandiac")}</p>
+              </li>
               <li className="food-item">
                 <p className="food-title">
                   France Maki <span> 17.00 </span>
                 </p>
-                <p className="food-description">
-                  Salmon, White Fish, Shrimp Tempura, Avocado, Mango, Caviar
-                </p>
+                <p className="food-description">{t("francemaki")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Pizza <span> 10.25 </span>
                 </p>
-                <p className="food-description">
-                  Rice Cracker, Smoked Salmon, Crab Stick, Avocado, Cucumber,
-                  Mayo
-                </p>
+                <p className="food-description">{t("pizza")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Caterpillar <span> 13.50 </span>
                 </p>
-                <p className="food-description">
-                  Shrimp Tempura, Salmon, Crab Stick, Avocado, Marinated Rice
-                </p>
+                <p className="food-description">{t("caterpillar")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   La Belle <span> 15.00 </span>
                 </p>
-                <p className="food-description">Tuna, Caviar, Asparagus</p>
+                <p className="food-description">{t("labelle")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   La Bete <span> 13.50 </span>
                 </p>
-                <p className="food-description">
-                  Salmon, Caviar, Asparagus - Roll Lightly Fried
-                </p>
+                <p className="food-description">{t("labete")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Tuna Special <span> 16.00 </span>
+                  {t("reddragontitle")} <span> 16.00 </span>
                 </p>
-                <p className="food-description">
-                  Pieces of Tuna Lightly Fried, Caviar, Green Onion, Special
-                  Mayo
-                </p>
-              </li>
-              <li className="food-item">
-                <p className="food-title">
-                  Red Dragon <span> 16.00 </span>
-                </p>
-                <p className="food-description">
-                  Panko Shrimp, Tuna, Caviar, Crab Stick, Spicy Mayo
-                </p>
+                <p className="food-description">{t("reddragon")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Dragon <span> 16.00 </span>
                 </p>
-                <p className="food-description">
-                  Eel, Crab Stick, Tempura, Caviar, Avocado, Cucumber
-                </p>
+                <p className="food-description">{t("dragon")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Trust Me <span> 13.50 </span>
+                  {t("trustmetitle")} <span> 13.50 </span>
                 </p>
-                <p className="food-description">
-                  Eel, Shrimp Tempura, Caviar, Tempura, Avocado, Cucumber
-                </p>
+                <p className="food-description">{t("trustme")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Yin-Yang <span> 13.50 </span>
                 </p>
-                <p className="food-description">
-                  Tuna, Salmon, Caviar, Special Avocado Sauce - Roll Lightly
-                  Grilled
-                </p>
+                <p className="food-description">{t("yinyang")}</p>
               </li>
             </ul>
           </div>
 
           <div className="food-category">
-            <h2> Rice Paper Roll </h2>
-            <h5 className="underline-category">(Served with Special Sauce)</h5>
+            <h2>{t("cattitle5")}</h2>
+            <h5 className="underline-category">{t("catdesc5")}</h5>
             <ul>
               <li className="food-item">
                 <p className="food-title">
                   Indochine <span> 8.00 </span>
                 </p>
-                <p className="food-description">
-                  Salmon, Crab Stick, Caviar, Lettuce, Cucumber
-                </p>
+                <p className="food-description">{t("indochine")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Illusion <span> 8.00 </span>
                 </p>
-                <p className="food-description">
-                  Shrimp, Caviar, Mixed Salad, Cucumber
-                </p>
+                <p className="food-description">{t("illusion")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Fantasia <span> 8.00 </span>
                 </p>
-                <p className="food-description">
-                  Shrimp & Sweet Potato Tempura, Mixed Salad
-                </p>
+                <p className="food-description">{t("fantasia")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Exotica <span> 8.00 </span>
                 </p>
-                <p className="food-description">
-                  Smoked Salmon, Caviar, Strawberry, Kiwi, Mango, Cucumber,
-                  Mixed Salad
-                </p>
+                <p className="food-description">{t("exotica")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Voilier <span> 11.00 </span>
                 </p>
-                <p className="food-description">
-                  Grilled Shrimp & Red Pepper, Caviar, Vermicelli, Mixed Salad
-                </p>
+                <p className="food-description">{t("voilier")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Passion <span> 11.00 </span>
                 </p>
-                <p className="food-description">
-                  Shrimp, Crab Stick, Caviar, Mango, Cucumber, Vermicelli, Mixed
-                  Salad
-                </p>
+                <p className="food-description">{t("passion")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Amoureux <span> 11.00 </span>
                 </p>
-                <p className="food-description">
-                  Salmon & Crab Stick Panko, Caviar, Cucumber, Vermicelli, Mixed
-                  Salad
-                </p>
+                <p className="food-description">{t("amoureux")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Nue <span> 12.75 </span>
                 </p>
-                <p className="food-description">
-                  Vegetable Tempura, Shrimp, Caviar, Avocado
-                </p>
+                <p className="food-description">{t("nue")}</p>
               </li>
             </ul>
           </div>

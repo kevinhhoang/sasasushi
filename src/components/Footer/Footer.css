@@ -3,8 +3,12 @@
   src: url(Jost-300-Light.ttf);
 }
 
-h3 {
-  font-family: Jost, sans-serif;
+.footer-title {
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 900;
   color: #000000;
   text-decoration: none;
 }
@@ -12,8 +16,8 @@ h3 {
 .footer-text {
   margin-top: 5px;
 
-  font-family: Jost, sans-serif;
-  font-weight: 500;
+  font-family: jost, sans-serif;
+  font-weight: 300;
   font-size: 14px;
   color: #000000;
   text-decoration: none;
@@ -45,11 +49,6 @@ h3 {
 
   .container1 {
     padding: 5px 0px;
-  }
-
-  .footer-image {
-    width: 80px;
-    height: auto;
   }
 
   .footer-text {
