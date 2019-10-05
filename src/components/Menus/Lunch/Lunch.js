@@ -1,97 +1,95 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import "./Lunch.css";
 
-const Lunch = () => {
+const Lunch = ({ value }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="main-container">
       <div className="menu-content">
         <div className="menu-sidebar">
           <ul>
             <li>
-              <NavLink className="sidebar-menu_link" to="/menus/alacarte">
-                A LA CARTE
+              <NavLink
+                className="sidebar-menu_link"
+                to={`/${value}/menus/${t("urlalacarte")}`}
+              >
+                {t("sbalacarte")}
               </NavLink>
             </li>
             <li>
-              <NavLink className="sidebar-menu_link" to="/menus/lunch">
-                LUNCH
+              <NavLink
+                className="sidebar-menu_link"
+                to={`/${value}/menus/${t("urllunch")}`}
+              >
+                {t("sblunch")}
               </NavLink>
             </li>
             <li>
-              <NavLink className="sidebar-menu_link" to="/menus/supper">
-                SUPPER
+              <NavLink
+                className="sidebar-menu_link"
+                to={`/${value}/menus/${t("urlsupper")}`}
+              >
+                {t("sbsupper")}
               </NavLink>
             </li>
           </ul>
         </div>
         <div className="list-container">
           <div className="food-category">
-            <h2 className="underline-category"> Appetizer </h2>
+            <h2 className="underline-category">{t("appetizer")}</h2>
             <ul>
               <li className="food-item">
                 <p className="food-title">
                   Agedashi Tofu <span> 4.25 </span>
                 </p>
-                <p className="food-description">
-                  Lightly fried tofu with tempura sauce and bonito flakes
-                </p>
+                <p className="food-description">{t("agedashitofu")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Yakitori <span> 5.75 </span>
                 </p>
-                <p className="food-description">
-                  Grilled chicken skewers serve with teriyaki sauce
-                </p>
+                <p className="food-description">{t("yakitori")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Gyoza <span> 6.00 </span>
                 </p>
-                <p className="food-description">
-                  Japanese dumplings serve with house sauce
-                </p>
+                <p className="food-description">{t("gyoza")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Vegetable Tempura <span> 6.00 </span>
+                  {t("vegetabletempuratitle")} <span> 6.00 </span>
                 </p>
-                <p className="food-description">
-                  Deep fried vegetables serve with tempura sauce
-                </p>
+                <p className="food-description">{t("vegetabletempura")}</p>
               </li>
             </ul>
           </div>
           <div className="food-category">
-            <h2> Hot Meals </h2>
-            <h5 className="underline-category">
-              (Served with miso soup or salad, rice included)
-            </h5>
+            <h2>{t("hotmeals")}</h2>
+            <h5 className="underline-category">{t("hotmealsdesc")}</h5>
             <ul>
               <li className="food-item">
                 <p className="food-title">
-                  Chicken Katsu <span> 14.00 </span>
+                  {t("chickenkatsutitle")}
+                  <span> 14.00 </span>
                 </p>
-                <p className="food-description">
-                  Fried breaded chicken with Katsu sauce
-                </p>
+                <p className="food-description">{t("chickenkatsu")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">Teriyaki</p>
-                <p className="food-description">
-                  Grilled dish garnished with teriyaki sauce serve with
-                  vegetables
-                </p>
+                <p className="food-description">{t("teriyaki")}</p>
                 <ul>
                   <li>
-                    Chicken <span> 14.00 </span>
+                    {t("chicken")} <span> 14.00 </span>
                   </li>
                   <li>
-                    Salmon <span> 15.00 </span>
+                    {t("salmon")} <span> 15.00 </span>
                   </li>
                   <li>
-                    Steak <span> 18.00 </span>
+                    {t("steak")} <span> 18.00 </span>
                   </li>
                 </ul>
               </li>
@@ -99,47 +97,35 @@ const Lunch = () => {
                 <p className="food-title">
                   Tempura <span> 16.00 </span>
                 </p>
-                <p className="food-description">
-                  Deep fried shrimps and vegetables in light batter, serve with
-                  tempura sauce
-                </p>
+                <p className="food-description">{t("tempura")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
                   Sasa Special <span> 16.00 </span>
                 </p>
-                <p className="food-description">
-                  Grilled chicken brochettes, and deep fried shrimps vegetables
-                  in batter served with teriyaki sauce
-                </p>
+                <p className="food-description">{t("sasaspecial")}</p>
               </li>
             </ul>
           </div>
           <div className="food-category">
             <h2> Sushi Combo </h2>
-            <h5 className="underline-category">
-              (Served with miso soup or salad)
-            </h5>
+            <h5 className="underline-category">{t("sushicombodesc")}</h5>
             <ul>
               <li className="food-item">
                 <p className="food-title">
                   Sushi Moriowase <span> 16.00 </span>
                 </p>
-                <p className="food-description">
-                  Assortment of raw fish and shellfish sushi and Kamikaze maki
-                </p>
+                <p className="food-description">{t("sushimoriowase")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">Sashimi & Maki</p>
-                <p className="food-description">
-                  Assortment of raw fish sashimi served with sushi rice
-                </p>
+                <p className="food-description">{t("sashimiandmaki")}</p>
                 <ul>
                   <li>
-                    without Rice <span> 16.00 </span>
+                    {t("withoutrice")} <span> 16.00 </span>
                   </li>
                   <li>
-                    with Rice <span> 17.00 </span>
+                    {t("withrice")} <span> 17.00 </span>
                   </li>
                 </ul>
               </li>
@@ -147,9 +133,7 @@ const Lunch = () => {
                 <p className="food-title">
                   Maki Combo <span> 12.00 </span>
                 </p>
-                <p className="food-description">
-                  Combo of Kamikaze and California
-                </p>
+                <p className="food-description">{t("makicombo")}</p>
               </li>
             </ul>
           </div>
