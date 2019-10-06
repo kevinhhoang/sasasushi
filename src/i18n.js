@@ -465,7 +465,7 @@ const options = {
       },
     },
   },
-  fallbackLng: "en",
+  fallbackLng: "fr",
   debug: true,
 
   // have a common namespace used around the full app

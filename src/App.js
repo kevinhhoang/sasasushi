@@ -28,10 +28,12 @@ class App extends Component {
     });
 
     // remove language '/en/' or '/fr/' if exists
-    var path = window.location.pathname.replace(/\/[a-z]{2}/, "");
+    let path = window.location.pathname.replace(/\/[a-z]{2}/, "");
+
+    let newPath;
 
     if (path === "/menus/lunch") {
-      var newPath = path.replace(/\/(?:.(?!\/))+$/gim, "/diner");
+      newPath = path.replace(/\/(?:.(?!\/))+$/gim, "/diner");
     } else if (path === "/menus/diner") {
       newPath = path.replace(/\/(?:.(?!\/))+$/gim, "/lunch");
     } else if (path === "/menus/supper") {
@@ -49,7 +51,7 @@ class App extends Component {
     }
 
     // reload the page with the lang prefix and the translated path
-    window.location.href = "/" + lng + path;
+    window.location.href = `/${lng}${path}`;
   };
 
   render() {
