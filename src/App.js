@@ -16,7 +16,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      value: i18next.language,
+      value: i18next.languages[0],
     };
   }
 
@@ -58,11 +58,18 @@ class App extends Component {
     const { value } = this.state;
     const { t } = this.props;
 
+    let routeOption;
+    if (value === "en") {
+      routeOption = <Route exact path="/en" component={Home} />;
+    } else {
+      routeOption = <Route exact path="/fr" component={Home} />;
+    }
+
     return (
       <BrowserRouter>
         <div>
           <NavBar changeLanguage={this.changeLanguage} value={value} />
-          <Route exact path={`/${value}`} component={Home} />
+          <div>{routeOption}</div>
           <Route
             path={`/${value}/menus/${t("urlalacarte")}`}
             render={props => <Alacarte {...props} value={value} />}

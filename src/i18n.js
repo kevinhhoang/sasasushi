@@ -465,8 +465,8 @@ const options = {
       },
     },
   },
-  fallbackLng: "fr",
-  debug: true,
+  fallbackLng: ["fr", "en"],
+  // debug: true,
 
   // have a common namespace used around the full app
   ns: ["translations"],
@@ -482,6 +482,9 @@ const options = {
   react: {
     wait: true,
   },
+
+  load: "languageOnly",
+  whitelife: ["fr", "en"],
 };
 
 i18n
