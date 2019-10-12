@@ -1,30 +1,33 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./Footer.css";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="footer-container">
       <div className="container1">
-        <h3 className="footer-title">Location</h3>
+        <h3 className="footer-title">{t("addresstitle")}</h3>
         <p className="footer-text">
-          71 Chemin St-Francois-Xavier
+          {t("address1")}
           <br />
-          Candiac, QC J5R4V4
+          {t("address2")}
         </p>
       </div>
       <div className="container1">
-        <h3 className="footer-title">Hours</h3>
+        <h3 className="footer-title">{t("hourstitle")}</h3>
         <p className="footer-text">
-          Tuesday - Friday | 11:30pm - 2pm <br />
-          Tuesday, Wednesday, Sunday | 5pm - 8pm <br />
-          Thursday, Friday, Saturday | 5pm - 9pm
+          {t("hours1")} <br />
+          {t("hours2")} <br />
+          {t("hours3")}
         </p>
       </div>
       <div className="container1">
-        <h3 className="footer-title">Contact</h3>
+        <h3 className="footer-title">{t("contacttitle")}</h3>
         <p className="footer-text">
-          <a href="tel:+14506320559">450.632.0559</a> <br />
-          sasasushi@gmail.com
+          <a href="tel:+14506320559">{t("contact1")}</a> <br />
+          {t("contact2")}
         </p>
       </div>
     </footer>
