@@ -34,12 +34,11 @@ const options = {
         address1: "71 Chemin St-Francois-Xavier",
         address2: "Candiac, QC J5R 4V4",
         hourstitle: "Hours",
-        hours1: "Tuesday - Friday | 11:30pm - 2pm",
-        hours2: "Tuesday, Wednesday, Sunday | 5pm - 8pm",
-        hours3: "Thursday, Friday, Saturday | 5pm - 9pm",
+        hours1: "Lunch | Tuesday - Friday | 11:30pm - 2pm",
+        hours2: "Supper | Tuesday, Wednesday, Sunday | 5pm - 8pm",
+        hours3: "Supper | Thursday, Friday, Saturday | 5pm - 9pm",
         contacttitle: "Contact",
         contact1: "450.632.0559",
-        contact2: "sasasushi@gmail.com",
 
         // sidebar
         sbalacarte: "À LA CARTE",
@@ -306,12 +305,11 @@ const options = {
         address1: "71 Chemin St-Francois-Xavier",
         address2: "Candiac, QC J5R 4V4",
         hourstitle: "Heures",
-        hours1: "Mardi - Vendredi | 11:30pm - 2pm",
-        hours2: "Mardi, Mercredi, Dimache | 5pm - 8pm",
-        hours3: "Jeudi, Vendredi, Samedi | 5pm - 9pm",
+        hours1: "Dîner | Mardi - Vendredi | 11:30pm - 2pm",
+        hours2: "Souper | Mardi, Mercredi, Dimache | 5pm - 8pm",
+        hours3: "Souper | Jeudi, Vendredi, Samedi | 5pm - 9pm",
         contacttitle: "Contact",
         contact1: "450.632.0559",
-        contact2: "sasasushi@gmail.com",
 
         // sidebar
         sbalacarte: "À LA CARTE",

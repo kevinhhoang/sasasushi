@@ -27,7 +27,6 @@ const Footer = () => {
         <h3 className="footer-title">{t("contacttitle")}</h3>
         <p className="footer-text">
           <a href="tel:+14506320559">{t("contact1")}</a> <br />
-          {t("contact2")}
         </p>
       </div>
     </footer>

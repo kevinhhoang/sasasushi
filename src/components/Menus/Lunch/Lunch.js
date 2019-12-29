@@ -43,15 +43,9 @@ const Lunch = ({ value }) => {
             <ul>
               <li className="food-item">
                 <p className="food-title">
-                  Agedashi Tofu <span> 4.25 </span>
+                  Agedashi Tofu <span> 5.00 </span>
                 </p>
                 <p className="food-description">{t("agedashitofu")}</p>
-              </li>
-              <li className="food-item">
-                <p className="food-title">
-                  Yakitori <span> 5.75 </span>
-                </p>
-                <p className="food-description">{t("yakitori")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
@@ -61,12 +55,31 @@ const Lunch = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("vegetabletempuratitle")} <span> 6.00 </span>
+                  Yakitori <span> 7.00 </span>
+                </p>
+                <p className="food-description">{t("yakitori")}</p>
+              </li>
+              <li className="food-item">
+                <p className="food-title">
+                  Haru Maki <span> 7.50 </span>
+                </p>
+                <p className="food-description">{t("harumaki")}</p>
+              </li>
+              <li className="food-item">
+                <p className="food-title">
+                  {t("vegetabletempuratitle")} <span> 7.50 </span>
                 </p>
                 <p className="food-description">{t("vegetabletempura")}</p>
               </li>
+              <li className="food-item">
+                <p className="food-title">
+                  Tempura <span> 9.00 </span>
+                </p>
+                <p className="food-description">{t("tempura")}</p>
+              </li>
             </ul>
           </div>
+
           <div className="food-category">
             <h2>{t("hotmeals")}</h2>
             <h5 className="underline-category">{t("hotmealsdesc")}</h5>
@@ -74,7 +87,7 @@ const Lunch = ({ value }) => {
               <li className="food-item">
                 <p className="food-title">
                   {t("chickenkatsutitle")}
-                  <span> 14.00 </span>
+                  <span> 15.00 </span>
                 </p>
                 <p className="food-description">{t("chickenkatsu")}</p>
               </li>
@@ -83,37 +96,38 @@ const Lunch = ({ value }) => {
                 <p className="food-description">{t("teriyaki")}</p>
                 <ul>
                   <li>
-                    {t("chicken")} <span> 14.00 </span>
+                    {t("chicken")} <span> 15.00 </span>
                   </li>
                   <li>
-                    {t("salmon")} <span> 15.00 </span>
+                    {t("salmon")} <span> 16.00 </span>
                   </li>
                   <li>
-                    {t("steak")} <span> 18.00 </span>
+                    {t("steak")} <span> 19.00 </span>
                   </li>
                 </ul>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Tempura <span> 16.00 </span>
+                  Tempura <span> 17.00 </span>
                 </p>
                 <p className="food-description">{t("tempura")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Sasa Special <span> 16.00 </span>
+                  Sasa Special <span> 17.00 </span>
                 </p>
                 <p className="food-description">{t("sasaspecial")}</p>
               </li>
             </ul>
           </div>
+
           <div className="food-category">
             <h2> Sushi Combo </h2>
             <h5 className="underline-category">{t("sushicombodesc")}</h5>
             <ul>
               <li className="food-item">
                 <p className="food-title">
-                  Sushi Moriowase <span> 16.00 </span>
+                  Sushi Moriowase <span> 17.00 </span>
                 </p>
                 <p className="food-description">{t("sushimoriowase")}</p>
               </li>
@@ -122,16 +136,16 @@ const Lunch = ({ value }) => {
                 <p className="food-description">{t("sashimiandmaki")}</p>
                 <ul>
                   <li>
-                    {t("withoutrice")} <span> 16.00 </span>
+                    {t("withoutrice")} <span> 17.00 </span>
                   </li>
                   <li>
-                    {t("withrice")} <span> 17.00 </span>
+                    {t("withrice")} <span> 18.00 </span>
                   </li>
                 </ul>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Maki Combo <span> 12.00 </span>
+                  Maki Combo <span> 13.00 </span>
                 </p>
                 <p className="food-description">{t("makicombo")}</p>
               </li>
