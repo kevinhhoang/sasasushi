@@ -22,6 +22,14 @@ const Supper = ({ value }) => {
             <li>
               <NavLink
                 className="sidebar-menu_link"
+                to={`/${value}/menus/${t("urlcombo")}`}
+              >
+                {t("sbcombo")}
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className="sidebar-menu_link"
                 to={`/${value}/menus/${t("urllunch")}`}
               >
                 {t("sblunch")}

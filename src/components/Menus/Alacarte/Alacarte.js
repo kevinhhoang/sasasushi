@@ -22,6 +22,14 @@ const Alacarte = ({ value }) => {
             <li>
               <NavLink
                 className="sidebar-menu_link"
+                to={`/${value}/menus/${t("urlcombo")}`}
+              >
+                {t("sbcombo")}
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className="sidebar-menu_link"
                 to={`/${value}/menus/${t("urllunch")}`}
               >
                 {t("sblunch")}
@@ -383,18 +391,6 @@ const Alacarte = ({ value }) => {
             <ul>
               <li className="food-item">
                 <p className="food-title">
-                  La Nina <span> 17.00 </span>
-                </p>
-                <p className="food-description">{t("lanina")}</p>
-              </li>
-              <li className="food-item">
-                <p className="food-title">
-                  Avalanche <span> 17.00 </span>
-                </p>
-                <p className="food-description">{t("avalanche")}</p>
-              </li>
-              <li className="food-item">
-                <p className="food-title">
                   {t("francemakititle")} <span> 18.00 </span>
                 </p>
                 <p className="food-description">{t("francemaki")}</p>
@@ -425,7 +421,7 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Soleil Candiac <span> 15.00 </span>
+                  {t("soleilcandiactitle")} <span> 15.00 </span>
                 </p>
                 <p className="food-description">{t("soleilcandiac")}</p>
               </li>

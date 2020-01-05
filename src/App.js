@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import Alacarte from "./components/Menus/Alacarte/Alacarte";
+import Combo from "./components/Menus/Combo/Combo";
 import Lunch from "./components/Menus/Lunch/Lunch";
 import Supper from "./components/Menus/Supper/Supper";
 import Gallery from "./components/Gallery/Gallery";
@@ -64,6 +65,10 @@ class App extends Component {
           <NavBar changeLanguage={this.changeLanguage} value={value} />
           <Route exact path="/" component={Home} />
           <Route exact path={`/${value}`} component={Home} />
+          <Route
+            path={`/${value}/menus/${t("urlcombo")}`}
+            render={props => <Combo {...props} value={value} />}
+          />
           <Route
             path={`/${value}/menus/${t("urlalacarte")}`}
             render={props => <Alacarte {...props} value={value} />}
