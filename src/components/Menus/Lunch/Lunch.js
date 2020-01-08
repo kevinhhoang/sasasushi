@@ -159,6 +159,11 @@ const Lunch = ({ value }) => {
               </li>
             </ul>
           </div>
+
+          <div className="food-category">
+            <div className="underline-category" />
+            <p className="centertext">{t("notincluded")}</p>
+          </div>
         </div>
       </div>
     </div>

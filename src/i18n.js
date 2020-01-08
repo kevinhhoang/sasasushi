@@ -291,6 +291,8 @@ const options = {
         sushisashimi: "5 nigiri, 6 pieces of sashimi & 6 pieces of maki roll",
         sashimititle: "Sashimi (16pcs)",
         sashimi: "16 pieces of sashimi served with rice",
+
+        notincluded: "Soup or Salad is not included for takeout orders.",
       },
     },
     fr: {
@@ -587,6 +589,9 @@ const options = {
           "5 nigiri, 6 morceaux de sashimi & 6 morceaux de rouleau maki",
         sashimititle: "Sashimi (16mcx)",
         sashimi: "16 morceaux de sashimi servis avec du riz",
+
+        notincluded:
+          "Soupe ou Salade n'est pas inclue pour les commandes à emporter.",
       },
     },
   },

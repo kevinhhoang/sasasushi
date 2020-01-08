@@ -100,3 +100,8 @@
   font-size: 14px;
   color: #5d5d5d;
 }
+
+.centertext {
+  text-align: center;
+  font-weight: 900;
+}
