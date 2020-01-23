@@ -196,7 +196,7 @@ const Supper = ({ value }) => {
                 <p className="food-description">{t("teriyaki")}</p>
                 <ul>
                   <li>
-                    {t("vegetarian")} <span> 16.00 </span>
+                    {t("vegetarian")} <span> 17.00 </span>
                   </li>
                   <li>
                     {t("chicken")} <span> 17.00 </span>

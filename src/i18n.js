@@ -135,13 +135,13 @@ const options = {
         dragoneye: "Salmon, White Fish, Carrot, Scallion (Fried Roll)",
 
         cattitle3: "Veggie Maki",
-        kappamakititle: "Kappa Maki (6pcs)",
+        kappamakititle: "Kappa (6pcs)",
         kappamaki: "Cucumber Roll",
-        avocadomakititle: "Avocado Maki (6pcs)",
+        avocadomakititle: "Avocado (6pcs)",
         avocadomaki: "Avocado Roll",
         oshinkotitle: "Oshinko (6pcs)",
         oshinko: "Marinated Radish, Cucumber",
-        yasaimakititle: "Yasai Maki (5pcs)",
+        yasaimakititle: "Yasai (5pcs)",
         yasaimaki: "Steamed Vegetables",
         shoujinagetitle: "Shoujin Age (5pcs)",
         shoujinage: "Vegetable Tempura",
@@ -156,7 +156,7 @@ const options = {
         avalanche: "Grilled Mackerel, Sun-dried Tomato, Caviar, Jalapeno Sauce",
         soleilcandiactitle: "Soleil Candiac (8pcs)",
         soleilcandiac: "Salmon, Spicy Salmon, Caviar, Avocado",
-        francemakititle: "France Maki (8pcs)",
+        francemakititle: "France (8pcs)",
         francemaki:
           "Salmon, White Fish, Shrimp Tempura, Caviar, Avocado, Mango, Scallion",
         pizzatitle: "Pizza (4pcs)",
@@ -205,15 +205,14 @@ const options = {
         // combo
         comboroll: "Combo Roll",
         comboonetitle: "Combo 1 (26pcs)",
-        comboonelist: "Dragon Eye, Québec, California, Chef's Roll, Kappa Maki",
+        comboonelist: "Dragon Eye, Québec, California, Chef's Roll, Kappa",
         combotwotitle: "Combo 2 (26pcs)",
-        combotwolist: "Kamikaze, Aloha, Chef's Roll, Sake Maki, Yasai Maki",
+        combotwolist: "Kamikaze, Aloha, Chef's Roll, Sake Maki, Yasai",
         combothreetitle: "Combo 3 (52pcs)",
-        combothreelist:
-          "2 Kamikaze, 2 Aloha, 2 Tori Tori, Québec, 2 Yasai Maki",
+        combothreelist: "2 Kamikaze, 2 Aloha, 2 Chef's Roll, Québec, 2 Yasai",
         combofourtitle: "Combo 4 (96pcs)",
         combofourlist:
-          "2 Kamikaze, 2 Aloha, 2 Dragon Eye, 2 Québec, 2 Tori Tori, 2 New York, 2 Boston, 2 Sake Maki, 2 Yasai Maki",
+          "2 Kamikaze, 2 Aloha, 2 Dragon Eye, 2 Québec, 2 Chef's Roll, 2 New York, 2 Boston, 2 Sake Maki, 2 Yasai Maki",
 
         // lunch
         appetizer: "Appetizer",
@@ -429,13 +428,13 @@ const options = {
         dragoneye: "Saumon, Poisson Blanc, Carotte, Oignon Vert (Rouleau Frit)",
 
         cattitle3: "Maki Végétarien",
-        kappamakititle: "Kappa Maki (6mcx)",
+        kappamakititle: "Kappa (6mcx)",
         kappamaki: "Rouleau de Concombre",
-        avocadomakititle: "Avocat Maki (6mcx)",
+        avocadomakititle: "Avocat (6mcx)",
         avocadomaki: "Rouleau d'Avocat",
         oshinkotitle: "Oshinko (6mcx)",
         oshinko: "Radis Mariné, Concombre",
-        yasaimakititle: "Yasai Maki (5mcx)",
+        yasaimakititle: "Yasai (5mcx)",
         yasaimaki: "Légume Cuit à la Vapeur",
         shoujinagetitle: "Shoujin Age (5mcx)",
         shoujinage: "Légume Tempura",
@@ -450,7 +449,7 @@ const options = {
         avalanche: "Maquereau Grillé, Tomate Séchée, Caviar, Sauce Jalapeno",
         soleilcandiactitle: "Soleil Candiac (8mcx)",
         soleilcandiac: "Saumon, Saumon Épicée, Caviar, Avocat",
-        francemakititle: "France Maki (8mcx)",
+        francemakititle: "France (8mcx)",
         francemaki:
           "Saumon, Poisson Blanc, Crevette Tempura, Caviar, Avocat, Mangue, Oignon Vert",
         pizzatitle: "Pizza (4mcx)",
@@ -501,16 +500,15 @@ const options = {
         // combo
         comboroll: "Combo Rouleau",
         comboonetitle: "Combo 1 (26mcx)",
-        comboonelist:
-          "Dragon Eye, Québec, California, Rouleau du Chef, Kappa Maki",
+        comboonelist: "Dragon Eye, Québec, California, Rouleau du Chef, Kappa",
         combotwotitle: "Combo 2 (26mcx)",
-        combotwolist: "Kamikaze, Aloha, Rouleau du Chef, Sake Maki, Yasai Maki",
+        combotwolist: "Kamikaze, Aloha, Rouleau du Chef, Sake Maki, Yasai",
         combothreetitle: "Combo 3 (52mcx)",
         combothreelist:
-          "2 Kamikaze, 2 Aloha, 2 Tori Tori, Québec, 2 Yasai Maki",
+          "2 Kamikaze, 2 Aloha, 2 Rouleau du Chef, Québec, 2 Yasai",
         combofourtitle: "Combo 4 (96mcx)",
         combofourlist:
-          "2 Kamikaze, 2 Aloha, 2 Dragon Eye, 2 Québec, 2 Tori Tori, 2 New York, 2 Boston, 2 Sake Maki, 2 Yasai Maki",
+          "2 Kamikaze, 2 Aloha, 2 Dragon Eye, 2 Québec, 2 Rouleau du Chef, 2 New York, 2 Boston, 2 Sake Maki, 2 Yasai",
 
         // lunch
         appetizer: "Entrée",
