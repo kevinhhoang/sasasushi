@@ -93,13 +93,13 @@ const Supper = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  La Nina <span> 14.00 </span>
+                  El Nina <span> 17.00 </span>
                 </p>
                 <p className="food-description">{t("dinnerlanina")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Avalanche <span> 14.00 </span>
+                  Avalanche <span> 15.00 </span>
                 </p>
                 <p className="food-description">{t("dinneravalanche")}</p>
               </li>
