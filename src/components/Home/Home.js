@@ -15,6 +15,9 @@ const Home = () => {
           {t("introtext1")}
           <br />
           {t("introtext2")}
+          <br />
+          <br />
+          <span className="bolded-text">{t("introtext3")}</span>
         </p>
       </div>
     </section>

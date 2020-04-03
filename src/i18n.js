@@ -30,15 +30,17 @@ const options = {
           "At Sasa Sushi, we are always looking for something new and better.",
         introtext2:
           "According to the inspiration of the moment and fresh ingredients found at the market, our chef creates new dishes or can develop tasting menus.",
+        introtext3:
+          "For an undetermined period of time, we will only be opened in the evening from Wednesday to Saturday starting from 5:00PM until 8:30PM. During this period we will only be taking take-outs. Thank you for your support and understanding.",
 
         // footer
         addresstitle: "Location",
         address1: "71 Chemin St-Francois-Xavier",
         address2: "Candiac, QC J5R 4V4",
         hourstitle: "Hours",
-        hours1: "Lunch | Tuesday - Friday | 11:30pm - 2pm",
-        hours2: "Supper | Tuesday, Wednesday, Sunday | 5pm - 8pm",
-        hours3: "Supper | Thursday, Friday, Saturday | 5pm - 9pm",
+        // hours1: "Lunch | Tuesday - Friday | 11:30pm - 2pm",
+        hours2: "Supper | Wednesday - Saturday | 5pm - 8:30pm",
+        // hours3: "Supper | Thursday, Friday, Saturday | 5pm - 9pm",
         contacttitle: "Contact",
         contact1: "450.632.0559",
 
@@ -318,15 +320,17 @@ const options = {
           "Chez Sasa Sushi, nous cherchons sans cesse à vous faire profiter de ce qu'il y a de nouveau et de meilleur.",
         introtext2:
           "Selon l'inspiration du moment et en fonction de ingrédients frais qu'il trouve au marché, notre chef crée des plats inédits ou peut élaborer des menus dégustation. Renseignez-vous.",
+        introtext3:
+          "Pour une durée indéterminée, nous serons ouverts que le soir du mercredi au samedi à partir de 5:00PM jusqu'à 8:30PM. Pendant cette période, nous ne prendrons que des plats à emporter. Merci pour votre soutien et votre compréhension.",
 
         // footer
         addresstitle: "Location",
         address1: "71 Chemin St-Francois-Xavier",
         address2: "Candiac, QC J5R 4V4",
         hourstitle: "Heures",
-        hours1: "Dîner | Mardi - Vendredi | 11:30pm - 2pm",
-        hours2: "Souper | Mardi, Mercredi, Dimache | 5pm - 8pm",
-        hours3: "Souper | Jeudi, Vendredi, Samedi | 5pm - 9pm",
+        // hours1: "Dîner | Mardi - Vendredi | 11:30pm - 2pm",
+        hours2: "Souper | Mercredi - Samedi | 5:00pm - 8:30pm",
+        // hours3: "Souper | Jeudi, Vendredi, Samedi | 5pm - 9pm",
         contacttitle: "Contact",
         contact1: "450.632.0559",
 

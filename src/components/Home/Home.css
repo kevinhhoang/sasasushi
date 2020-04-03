@@ -51,6 +51,9 @@ body {
   text-decoration: none;
 }
 
+.bolded-text {
+  font: normal normal bolder 12px/20px sans-serif, Arial;
+}
 /* responsive UI */
 
 @media all and (max-width: 420px) {

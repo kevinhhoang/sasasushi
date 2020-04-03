@@ -18,9 +18,7 @@ const Footer = () => {
       <div className="container1">
         <h3 className="footer-title">{t("hourstitle")}</h3>
         <p className="footer-text">
-          {t("hours1")} <br />
           {t("hours2")} <br />
-          {t("hours3")}
         </p>
       </div>
       <div className="container1">
