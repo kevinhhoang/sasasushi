@@ -183,7 +183,7 @@ const Supper = ({ value }) => {
 
           <div className="food-category">
             <h2>{t("hotmeals")}</h2>
-            <h5 className="underline-category">{t("dinnerhotmealdesc")}</h5>
+            <h5 className="underline-category">{t("dinnerhotmealsdesc")}</h5>
             <ul>
               <li className="food-item">
                 <p className="food-title">
