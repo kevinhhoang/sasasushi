@@ -39,7 +39,7 @@ const options = {
         address2: "Candiac, QC J5R 4V4",
         hourstitle: "Hours",
         // hours1: "Lunch | Tuesday - Friday | 11:30pm - 2pm",
-        hours2: "Supper | Wednesday - Saturday | 5pm - 8:30pm",
+        hours2: "Supper | Wednesday - Saturday | 4:00PM - 7:00PM",
         // hours3: "Supper | Thursday, Friday, Saturday | 5pm - 9pm",
         contacttitle: "Contact",
         contact1: "450.632.0559",
@@ -321,7 +321,7 @@ const options = {
         introtext2:
           "Selon l'inspiration du moment et les ingrédients frais trouvés au marché, notre chef crée de nouveaux plats ou peut élaborer des menus de dégustation.",
         introtext3:
-          "Avec l'annonce récente du couvre-feu par le gouvernement, le restaurant ne sera ouvert que le soir, du Mercredi au Samedi, de 16h00 à 19h00. Pendant cette période, nous ne prendrons que des plats à emporter. Nous vous remercions de votre soutien et de votre compréhension.",
+          "Avec l'annonce récente du couvre-feu par le gouvernement, le restaurant ne sera ouvert que le soir, du Mercredi au Samedi, de 4:00PM à 7:00PM. Pendant cette période, nous ne prendrons que des plats à emporter. Nous vous remercions de votre soutien et de votre compréhension.",
 
         // footer
         addresstitle: "Location",
@@ -329,7 +329,7 @@ const options = {
         address2: "Candiac, QC J5R 4V4",
         hourstitle: "Heures",
         // hours1: "Dîner | Mardi - Vendredi | 11:30pm - 2pm",
-        hours2: "Souper | Mercredi - Samedi | 5:00pm - 8:30pm",
+        hours2: "Souper | Mercredi - Samedi | 4:00PM - 7:00PM",
         // hours3: "Souper | Jeudi, Vendredi, Samedi | 5pm - 9pm",
         contacttitle: "Contact",
         contact1: "450.632.0559",
