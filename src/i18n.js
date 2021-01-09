@@ -319,7 +319,7 @@ const options = {
         introtext1:
           "Chez Sasa Sushi, nous cherchons sans cesse à vous faire profiter de ce qu'il y a de nouveau et de meilleur.",
         introtext2:
-          "Selon l'inspiration du moment et en fonction de ingrédients frais qu'il trouve au marché, notre chef crée des plats inédits ou peut élaborer des menus dégustation. Renseignez-vous.",
+          "Selon l'inspiration du moment et les ingrédients frais trouvés au marché, notre chef crée de nouveaux plats ou peut élaborer des menus de dégustation.",
         introtext3:
           "Avec l'annonce récente du couvre-feu par le gouvernement, le restaurant ne sera ouvert que le soir, du Mercredi au Samedi, de 16h00 à 19h00. Pendant cette période, nous ne prendrons que des plats à emporter. Nous vous remercions de votre soutien et de votre compréhension.",
 
