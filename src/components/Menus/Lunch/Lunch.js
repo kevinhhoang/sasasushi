@@ -51,12 +51,6 @@ const Lunch = ({ value }) => {
             <ul>
               <li className="food-item">
                 <p className="food-title">
-                  Agedashi Tofu <span> 5.00 </span>
-                </p>
-                <p className="food-description">{t("agedashitofu")}</p>
-              </li>
-              <li className="food-item">
-                <p className="food-title">
                   Gyoza <span> 6.00 </span>
                 </p>
                 <p className="food-description">{t("gyoza")}</p>

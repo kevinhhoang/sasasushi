@@ -31,7 +31,7 @@ const options = {
         introtext2:
           "According to the inspiration of the moment and fresh ingredients found at the market, our chef creates new dishes or can develop tasting menus.",
         introtext3:
-          "With the recent announcement of the curfew by the government, the restaurant will only be opened in the evening, from Wednesday to Saturday starting, from 4:00PM until 7:00PM. During this period, we will only be taking take-outs. Thank you for your support and understanding.",
+          "The restaurant will only be opened in the evening from Wednesday to Saturday starting, from 4:00PM until 8:30PM. We will only do take-outs. Thank you for your support and understanding.",
 
         // footer
         addresstitle: "Location",
@@ -39,7 +39,7 @@ const options = {
         address2: "Candiac, QC J5R 4V4",
         hourstitle: "Hours",
         // hours1: "Lunch | Tuesday - Friday | 11:30pm - 2pm",
-        hours2: "Supper | Wednesday - Saturday | 4:00PM - 7:00PM",
+        hours2: "Supper | Wednesday - Saturday | 4:00PM - 8:30PM",
         // hours3: "Supper | Thursday, Friday, Saturday | 5pm - 9pm",
         contacttitle: "Contact",
         contact1: "450.632.0559",
@@ -116,7 +116,7 @@ const options = {
         twister: "Shrimp, Udon, Carrot, Scallion (Fried Roll)",
         sasaducheftitle: "Sasa du Chef (6pcs)",
         sasaduchef: "Scallop Katsu, Caviar, Strawberry, Asparagus, Mayo",
-        nijimakititle: "Niji Maki (5pcs)",
+        nijimakititle: "Niji (5pcs)",
         nijimaki:
           "Tuna, Salmon, Crab Stick, Caviar, Avocado, Cucumber, Spicy Mayo",
         elninotitle: "El Nino (5pcs)",
@@ -174,7 +174,10 @@ const options = {
         reddragontitle: "Red Dragon (8pcs)",
         reddragon:
           "Panko Shrimp, Tuna, Caviar, Crab Stick, Cucumber, Spicy Mayo",
-        dragontitle: "Dragon (8pcs)",
+        clementinetitle: "Clementine (8pcs)",
+        clementine:
+          "Panko Shrimp, Salmon, Caviar, Crab Stick, Avocado, Spicy Mayo",
+        dragontitle: "Green Dragon (8pcs)",
         dragon: "Eel, Crab Stick, Tempura, Caviar, Avocado, Cucumber",
         trustmetitle: "Trust Me (5pcs)",
         trustme: "Eel, Shrimp Tempura, Caviar, Tempura, Avocado",
@@ -218,8 +221,6 @@ const options = {
 
         // lunch
         appetizer: "Appetizer",
-        agedashitofu:
-          "Lightly fried tofu served with tempura sauce & bonito flakes",
         yakitori: "Grilled chicken skewers served with teriyaki sauce",
         gyoza: "Japanese dumplings served with house sauce",
         vegetabletempuratitle: "Vegetable Tempura",
@@ -278,14 +279,13 @@ const options = {
         seafoodsalad:
           "Mixed salad with smoked salmon, shrimp, and crab stick served with house dressing",
 
-        dinnerhotmealsdesc: "(Served with miso soup or salad, rice included)",
+        dinnerhotmealsdesc: "(Served with rice)",
         seafood: "Seafood",
         shrimp: "Shrimp",
         seafoodyakiudontitle: "Seafood Yaki Udon",
         seafoodyakiudon:
           "Stir fry shrimps and scallops with shichimi spice, served with yaki udon (spicy)",
 
-        sushisashimidesc: "(Served with miso soup)",
         assortedsushititle: "Assorted Sushi (16pcs)",
         assortedsushi: "6 nigiri sushi & 10 pieces of maki roll",
         sushisashimititle: "Sushi & Sashimi (17pcs)",
@@ -321,7 +321,7 @@ const options = {
         introtext2:
           "Selon l'inspiration du moment et les ingrédients frais trouvés au marché, notre chef crée de nouveaux plats ou peut élaborer des menus de dégustation.",
         introtext3:
-          "Avec l'annonce récente du couvre-feu par le gouvernement, le restaurant ne sera ouvert que le soir, du Mercredi au Samedi, de 4:00PM à 7:00PM. Pendant cette période, nous ne prendrons que des plats à emporter. Nous vous remercions de votre soutien et de votre compréhension.",
+          "Le restaurant ne sera ouvert que le soir, du Mercredi au Samedi, de 4:00PM à 8:30PM. Nous ne prendrons que des plats à emporter. Nous vous remercions de votre soutien et de votre compréhension.",
 
         // footer
         addresstitle: "Location",
@@ -329,7 +329,7 @@ const options = {
         address2: "Candiac, QC J5R 4V4",
         hourstitle: "Heures",
         // hours1: "Dîner | Mardi - Vendredi | 11:30pm - 2pm",
-        hours2: "Souper | Mercredi - Samedi | 4:00PM - 7:00PM",
+        hours2: "Souper | Mercredi - Samedi | 4:00PM - 8:30PM",
         // hours3: "Souper | Jeudi, Vendredi, Samedi | 5pm - 9pm",
         contacttitle: "Contact",
         contact1: "450.632.0559",
@@ -384,7 +384,7 @@ const options = {
         boston: "Crevette, Imitation de Crabe, Concombre, Laitue, Mayo",
         newyorktitle: "New York (5mcx)",
         newyork: "Caviar, Imitation de Crabe, Concombre, Laitue, Mayo",
-        californiatitle: "California (5mcx)",
+        californiatitle: "Californie (5mcx)",
         california: "Caviar, Imitation de Crabe, Concombre, Avocat, Mayo",
         kamikazetitle: "Kamikaze (5mcx)",
         kamikaze: "Avocat, Concombre, Tempura, Oignon Vert, Mayo Épicée",
@@ -408,7 +408,7 @@ const options = {
         twister: "Crevette, Udon, Carotte, Oignon Vert (Rouleau Frit)",
         sasaducheftitle: "Sasa du Chef (6mcx)",
         sasaduchef: "Pétoncle Pané, Caviar, Strawberry, Asperge, Mayo",
-        nijimakititle: "Niji Maki (5mcx)",
+        nijimakititle: "Niji (5mcx)",
         nijimaki:
           "Thon, Saumon, Imitation de Crabe, Caviar, Avocat, Concombre, Mayo Épicée",
         elninotitle: "El Nino (5mcx)",
@@ -417,7 +417,7 @@ const options = {
         aloha: "Thon, Caviar, Mangue, Tempura, Oignon Vert, Mayo Épicée",
         volcanotitle: "Volcano (5mcx)",
         volcano: "Maquereau Grillé, Tomate Séchée, Caviar, Sauce Jalapeno",
-        eyeofthetigertitle: "Yeux du Tigre (5mcx)",
+        eyeofthetigertitle: "Oeil du Tigre (5mcx)",
         eyeofthetiger:
           "Trois Sortes de Poisson Tempura, Épinard Tempura, Caviar",
         spidertitle: "Araignée (5mcx)",
@@ -442,7 +442,7 @@ const options = {
         yasaimaki: "Légume Cuit à la Vapeur",
         shoujinagetitle: "Shoujin Age (5mcx)",
         shoujinage: "Légume Tempura",
-        sicilititle: "Sicili (5mcx)",
+        sicilititle: "Sicile (5mcx)",
         sicili: "Légumes Sautés",
 
         cattitle4: "Sasa Sushi Spécialité",
@@ -469,7 +469,10 @@ const options = {
         reddragontitle: "Dragon Rouge (8mcx)",
         reddragon:
           "Crevette Panée, Thon, Caviar, Imitation de Crabe, Concombre, Mayo Épicée",
-        dragontitle: "Dragon (8mcx)",
+        clementinetitle: "Clémentine (8pcs)",
+        clementine:
+          "Crevette Panée, Saumon, Caviar, Imitation de Crabe, Acvocat, Spicy Mayo",
+        dragontitle: "Dragon Vert (8mcx)",
         dragon:
           "Anguille, Imitation de Crabe, Tempura, Caviar, Avocat, Concombre",
         trustmetitle: "Crois-moi (5mcx)",
@@ -516,7 +519,6 @@ const options = {
 
         // lunch
         appetizer: "Entrée",
-        agedashitofu: "Tofu légèrement frit servi avec sauce tempura",
         yakitori: "Brochettes de poulet grillé servies avec sauce teriyaki",
         gyoza: "Dumplings Japonais au porc et légumes servis avec sauce maison",
         vegetabletempuratitle: "Légumes Tempura",
@@ -576,14 +578,13 @@ const options = {
         seafoodsalad:
           "Salade mixte garnie de saumon fumé, de crevettes et d'imitation de crabe servie avec une vinaigrette maison",
 
-        dinnerhotmealsdesc: "(Servi avec une soupe miso, riz inclus)",
+        dinnerhotmealsdesc: "(Servi avec riz)",
         seafood: "Fruit de Mer",
         shrimp: "Crevette",
         seafoodyakiudontitle: "Yaki Udon aux Fruits de Mer",
         seafoodyakiudon:
           "Sauté de crevettes et de pétoncles aux épices shichimi, servi avec du yaki udon (épicé)",
 
-        sushisashimidesc: "(Servi avec soupe miso)",
         assortedsushititle: "Sushi Assortis (16mcx)",
         assortedsushi: "6 nigiri sushi & 10 morceaux de rouleau maki",
         sushisashimititle: "Sushi & Sashimi (17mcx)",
