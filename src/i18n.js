@@ -31,7 +31,7 @@ const options = {
         introtext2:
           "According to the inspiration of the moment and fresh ingredients found at the market, our chef creates new dishes or can develop tasting menus.",
         introtext3:
-          "The restaurant will only be opened in the evening from Wednesday to Saturday starting, from 4:00PM until 8:30PM. We will only do take-outs. Thank you for your support and understanding.",
+          "Dear customers, the restaurant will be closed from August 8 to August 17, 2021 for vacations and we will reopen on August 18, 2021. Thank you for your understanding and support.",
 
         // footer
         addresstitle: "Location",
@@ -321,7 +321,7 @@ const options = {
         introtext2:
           "Selon l'inspiration du moment et les ingrédients frais trouvés au marché, notre chef crée de nouveaux plats ou peut élaborer des menus de dégustation.",
         introtext3:
-          "Le restaurant ne sera ouvert que le soir, du Mercredi au Samedi, de 4:00PM à 8:30PM. Nous ne prendrons que des plats à emporter. Nous vous remercions de votre soutien et de votre compréhension.",
+          "Chers clients, le restaurant sera fermé du 8 au 17 août 2021 pour les vacances et nous serons rouvrirons le 18 août 2021.",
 
         // footer
         addresstitle: "Location",
