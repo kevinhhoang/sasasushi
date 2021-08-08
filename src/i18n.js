@@ -321,7 +321,7 @@ const options = {
         introtext2:
           "Selon l'inspiration du moment et les ingrédients frais trouvés au marché, notre chef crée de nouveaux plats ou peut élaborer des menus de dégustation.",
         introtext3:
-          "Chers clients, le restaurant sera fermé du 8 au 17 août 2021 pour les vacances et nous serons rouvrirons le 18 août 2021.",
+          "Chers clients, le restaurant sera fermé du 8 au 17 août 2021 pour les vacances et nous serons rouvrirons le 18 août 2021. Merci de votre compréhension et de votre soutien",
 
         // footer
         addresstitle: "Location",
