@@ -30,8 +30,6 @@ const options = {
           "At Sasa Sushi, we are always looking for something new and better.",
         introtext2:
           "According to the inspiration of the moment and fresh ingredients found at the market, our chef creates new dishes or can develop tasting menus.",
-        introtext3:
-          "Dear customers, the restaurant will be closed from August 8 to August 17, 2021 for vacations and we will reopen on August 18, 2021. Thank you for your understanding and support.",
 
         // footer
         addresstitle: "Location",
@@ -320,8 +318,6 @@ const options = {
           "Chez Sasa Sushi, nous cherchons sans cesse à vous faire profiter de ce qu'il y a de nouveau et de meilleur.",
         introtext2:
           "Selon l'inspiration du moment et les ingrédients frais trouvés au marché, notre chef crée de nouveaux plats ou peut élaborer des menus de dégustation.",
-        introtext3:
-          "Chers clients, le restaurant sera fermé du 8 au 17 août 2021 pour les vacances et nous serons rouvrirons le 18 août 2021. Merci de votre compréhension et de votre soutien.",
 
         // footer
         addresstitle: "Location",
