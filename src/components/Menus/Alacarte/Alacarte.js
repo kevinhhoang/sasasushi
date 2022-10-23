@@ -52,44 +52,44 @@ const Alacarte = ({ value }) => {
             <ul>
               <li className="food-item">
                 <p className="food-title">
-                  Maguro * <span> 7.25 </span>
+                  Maguro * <span> 7.50 </span>
                 </p>
                 <p className="food-description">{t("maguro")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Albacore * <span> 6.75 </span>
+                  Albacore * <span> 7.00 </span>
                 </p>
                 <p className="food-description">{t("albacore")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Hamachi * <span> 7.50 </span>
+                  Hamachi * <span> 7.75 </span>
                 </p>
                 <p className="food-description">{t("hamachi")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Sake * <span> 6.75 </span>
+                  Sake * <span> 7.00 </span>
                 </p>
                 <p className="food-description">{t("sake")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Shiromi * <span> 5.75 </span>
+                  Shiromi * <span> 6.00 </span>
                 </p>
                 <p className="food-description">{t("shiromi")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Shime-Saba * <span> 5.75 </span>
+                  Shime-Saba * <span> 6.00 </span>
                 </p>
                 <p className="food-description">{t("shimesaba")}</p>
               </li>
 
               <li className="food-item">
                 <p className="food-title">
-                  Karame Hotategai {t("nigirionly")} <span> 7.75 </span>
+                  Karame Hotategai {t("nigirionly")} <span> 7.50 </span>
                 </p>
                 <p className="food-description">{t("karamehotategai")}</p>
               </li>
@@ -101,25 +101,19 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Ikura {t("nigirionly")} <span> 7.50 </span>
-                </p>
-                <p className="food-description">{t("ikura")}</p>
-              </li>
-              <li className="food-item">
-                <p className="food-title">
                   Sunrise {t("nigirionly")} <span> 7.25 </span>
                 </p>
                 <p className="food-description">{t("sunrise")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Tobiko {t("nigirionly")} <span> 6.75 </span>
+                  Tobiko {t("nigirionly")} <span> 6.50 </span>
                 </p>
                 <p className="food-description">{t("tobiko")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Massago {t("nigirionly")} <span> 5.75 </span>
+                  Massago {t("nigirionly")} <span> 6.00 </span>
                 </p>
                 <p className="food-description">{t("massago")}</p>
               </li>
@@ -138,7 +132,7 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Ebi <span> 5.50 </span>
+                  Ebi <span> 5.25 </span>
                 </p>
                 <p className="food-description">{t("ebi")}</p>
               </li>
@@ -150,7 +144,7 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  Kani-Kama <span> 5.50 </span>
+                  Kani-Kama <span> 5.25 </span>
                 </p>
                 <p className="food-description">{t("kanikama")}</p>
               </li>
@@ -192,13 +186,13 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("karamesabatitle")} <span> 6.75 </span>
+                  {t("karamesabatitle")} <span> 7.00 </span>
                 </p>
                 <p className="food-description">{t("karamesaba")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("karamesaketitle")} <span> 7.25 </span>
+                  {t("karamesaketitle")} <span> 7.50 </span>
                 </p>
                 <p className="food-description">{t("karamesake")}</p>
               </li>
@@ -240,7 +234,7 @@ const Alacarte = ({ value }) => {
                     {t("sake")} <span> 8.25 </span>
                   </li>
                   <li>
-                    {t("maguro")} <span> 9.00 </span>
+                    {t("maguro")} <span> 9.25 </span>
                   </li>
                 </ul>
               </li>
@@ -252,14 +246,14 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("phillytitle")} <span> 8.75 </span>
+                  {t("phillytitle")} <span> 9.25 </span>
                 </p>
                 <p className="food-description">{t("philly")}</p>
               </li>
 
               <li className="food-item">
                 <p className="food-title">
-                  {t("toritorititle")} <span> 8.25 </span>
+                  {t("toritorititle")} <span> 8.50 </span>
                 </p>
                 <p className="food-description">{t("toritori")}</p>
               </li>
@@ -271,7 +265,7 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("quebectitle")} <span> 8.00 </span>
+                  {t("quebectitle")} <span> 8.25 </span>
                 </p>
                 <p className="food-description">{t("quebec")}</p>
               </li>
@@ -295,7 +289,7 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("nijimakititle")} <span> 8.75 </span>
+                  {t("nijimakititle")} <span> 9.50 </span>
                 </p>
                 <p className="food-description">{t("nijimaki")}</p>
               </li>
@@ -307,7 +301,7 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("alohatitle")} <span> 9.00 </span>
+                  {t("alohatitle")} <span> 9.25 </span>
                 </p>
                 <p className="food-description">{t("aloha")}</p>
               </li>
@@ -325,19 +319,19 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("dragoneyetitle")} <span> 11.50 </span>
+                  {t("dragoneyetitle")} <span> 12.00 </span>
                 </p>
                 <p className="food-description">{t("dragoneye")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("zentitle")} <span> 11.50 </span>
+                  {t("zentitle")} <span> 12.00 </span>
                 </p>
                 <p className="food-description">{t("zen")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("karamelobstertitle")} <span> 14.25 </span>
+                  {t("karamelobstertitle")} <span> 14.75 </span>
                 </p>
                 <p className="food-description">{t("karamelobster")}</p>
               </li>
@@ -391,7 +385,7 @@ const Alacarte = ({ value }) => {
             <ul>
               <li className="food-item">
                 <p className="food-title">
-                  {t("francemakititle")} <span> 19.00 </span>
+                  {t("francemakititle")} <span> 19.75 </span>
                 </p>
                 <p className="food-description">{t("francemaki")}</p>
               </li>
@@ -427,7 +421,7 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("tunaspecialtitle")} <span> 19.75 </span>
+                  {t("tunaspecialtitle")} <span> 20.00 </span>
                 </p>
                 <p className="food-description">{t("tunaspecial")}</p>
               </li>
@@ -470,13 +464,13 @@ const Alacarte = ({ value }) => {
             <ul>
               <li className="food-item">
                 <p className="food-title">
-                  {t("indochinetitle")} <span> 9.25 </span>
+                  {t("indochinetitle")} <span> 9.00 </span>
                 </p>
                 <p className="food-description">{t("indochine")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("illusiontitle")} <span> 9.25 </span>
+                  {t("illusiontitle")} <span> 9.00 </span>
                 </p>
                 <p className="food-description">{t("illusion")}</p>
               </li>
@@ -488,13 +482,13 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("exoticatitle")} <span> 9.75 </span>
+                  {t("exoticatitle")} <span> 9.50 </span>
                 </p>
                 <p className="food-description">{t("exotica")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("voiliertitle")} <span> 13.50 </span>
+                  {t("voiliertitle")} <span> 14.00 </span>
                 </p>
                 <p className="food-description">{t("voilier")}</p>
               </li>

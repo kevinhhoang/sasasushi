@@ -51,25 +51,25 @@ const Combo = ({ value }) => {
             <ul>
               <li className="food-item">
                 <p className="food-title">
-                  {t("comboonetitle")} <span> 36.00 </span>
+                  {t("comboonetitle")} <span> 38.00 </span>
                 </p>
                 <p className="food-description">{t("comboonelist")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("combotwotitle")} <span> 36.00 </span>
+                  {t("combotwotitle")} <span> 38.00 </span>
                 </p>
                 <p className="food-description">{t("combotwolist")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("combothreetitle")} <span> 72.00 </span>
+                  {t("combothreetitle")} <span> 76.00 </span>
                 </p>
                 <p className="food-description">{t("combothreelist")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("combofourtitle")} <span> 130.00 </span>
+                  {t("combofourtitle")} <span> 138.00 </span>
                 </p>
                 <p className="food-description">{t("combofourlist")}</p>
               </li>

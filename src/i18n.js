@@ -59,7 +59,6 @@ const options = {
         shimesaba: "Mackerel",
         karamehotategai: "Scallop, Caviar, Strawberry, Scallion, Spicy Mayo",
         hotategai: "Scallop",
-        ikura: "Salmon Roe",
         sunrise: "Caviar, Scallop",
         tobiko: "Flying Fish Roe",
         massago: "Smelt Roe",
@@ -212,7 +211,7 @@ const options = {
         combotwotitle: "Combo 2 (26pcs)",
         combotwolist: "Kamikaze, Aloha, Chef's Roll, Sake Maki, Yasai",
         combothreetitle: "Combo 3 (52pcs)",
-        combothreelist: "2 Kamikaze, 2 Aloha, 2 Chef's Roll, Québec, 2 Yasai",
+        combothreelist: "2 Kamikaze, 2 Aloha, 2 Chef's Roll, 2 Québec, 2 Yasai",
         combofourtitle: "Combo 4 (96pcs)",
         combofourlist:
           "2 Kamikaze, 2 Aloha, 2 Dragon Eye, 2 Québec, 2 Chef's Roll, 2 New York, 2 Boston, 2 Sake Maki, 2 Yasai Maki",
@@ -347,7 +346,6 @@ const options = {
         shimesaba: "Maquereau",
         karamehotategai: "Pétoncle, Caviar, Fraise, Oignon Vert, Mayo Épicée",
         hotategai: "Pétoncle",
-        ikura: "Oeuf de Saumon",
         sunrise: "Caviar, Pétoncle",
         tobiko: "Oeuf de Poisson Volant",
         massago: "Oeufs d'Éperlan",
@@ -508,7 +506,7 @@ const options = {
         combotwolist: "Kamikaze, Aloha, Rouleau du Chef, Sake Maki, Yasai",
         combothreetitle: "Combo 3 (52mcx)",
         combothreelist:
-          "2 Kamikaze, 2 Aloha, 2 Rouleau du Chef, Québec, 2 Yasai",
+          "2 Kamikaze, 2 Aloha, 2 Rouleau du Chef, 2 Québec, 2 Yasai",
         combofourtitle: "Combo 4 (96mcx)",
         combofourlist:
           "2 Kamikaze, 2 Aloha, 2 Dragon Eye, 2 Québec, 2 Rouleau du Chef, 2 New York, 2 Boston, 2 Sake Maki, 2 Yasai",

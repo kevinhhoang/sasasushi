@@ -93,11 +93,6 @@ class NavBar extends Component {
                   </MenuLink>
                 </li>
                 <li>
-                  <MenuLink to={`/${value}/menus/${t("urllunch")}`}>
-                    {t("lunch")}
-                  </MenuLink>
-                </li>
-                <li>
                   <MenuLink to={`/${value}/menus/${t("urlsupper")}`}>
                     {t("supper")}
                   </MenuLink>
