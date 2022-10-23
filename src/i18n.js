@@ -10,7 +10,6 @@ const options = {
       translations: {
         // url
         urlalacarte: "alacarte",
-        urllunch: "lunch",
         urlsupper: "supper",
         urlgallery: "gallery",
         urlcontact: "contact",
@@ -19,7 +18,6 @@ const options = {
         // navbar
         menu: "Menu",
         alacarte: "À la carte",
-        lunch: "Lunch",
         supper: "Supper",
         gallery: "Gallery",
         contact: "Contact",
@@ -44,7 +42,6 @@ const options = {
 
         // sidebar
         sbalacarte: "À LA CARTE",
-        sblunch: "LUNCH",
         sbsupper: "SUPPER",
         sbcombo: "COMBO",
 
@@ -297,7 +294,6 @@ const options = {
       translations: {
         // url
         urlalacarte: "alacarte",
-        urllunch: "diner",
         urlsupper: "souper",
         urlgallery: "galerie",
         urlcontact: "contact",
@@ -306,7 +302,6 @@ const options = {
         // navbar
         menu: "Menu",
         alacarte: "À la carte",
-        lunch: "Dinner",
         supper: "Souper",
         gallery: "Galerie",
         contact: "Contact",
@@ -331,7 +326,6 @@ const options = {
 
         // sidebar
         sbalacarte: "À LA CARTE",
-        sblunch: "DÎNER",
         sbsupper: "SOUPER",
         sbcombo: "COMBO",
 

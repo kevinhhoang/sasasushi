@@ -8,7 +8,6 @@ import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import Alacarte from "./components/Menus/Alacarte/Alacarte";
 import Combo from "./components/Menus/Combo/Combo";
-import Lunch from "./components/Menus/Lunch/Lunch";
 import Supper from "./components/Menus/Supper/Supper";
 import Gallery from "./components/Gallery/Gallery";
 
@@ -33,11 +32,7 @@ class App extends Component {
 
     let newPath;
 
-    if (path === "/menus/lunch") {
-      newPath = path.replace(/\/(?:.(?!\/))+$/gim, "/diner");
-    } else if (path === "/menus/diner") {
-      newPath = path.replace(/\/(?:.(?!\/))+$/gim, "/lunch");
-    } else if (path === "/menus/supper") {
+    if (path === "/menus/supper") {
       newPath = path.replace(/\/(?:.(?!\/))+$/gim, "/souper");
     } else if (path === "/menus/souper") {
       newPath = path.replace(/\/(?:.(?!\/))+$/gim, "/supper");
@@ -72,10 +67,6 @@ class App extends Component {
           <Route
             path={`/${value}/menus/${t("urlalacarte")}`}
             render={props => <Alacarte {...props} value={value} />}
-          />
-          <Route
-            path={`/${value}/menus/${t("urllunch")}`}
-            render={props => <Lunch {...props} value={value} />}
           />
           <Route
             path={`/${value}/menus/${t("urlsupper")}`}
