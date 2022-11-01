@@ -172,7 +172,7 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("unakyutitle")} <span> 8.25 </span>
+                  {t("unakyutitle")} <span> 8.50 </span>
                 </p>
                 <p className="food-description">{t("unakyu")}</p>
               </li>
@@ -214,7 +214,7 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("californiatitle")} <span> 7.75 </span>
+                  {t("californiatitle")} <span> 8.00 </span>
                 </p>
                 <p className="food-description">{t("california")}</p>
               </li>
@@ -263,13 +263,13 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("montrealtitle")} <span> 8.25 </span>
+                  {t("montrealtitle")} <span> 8.50 </span>
                 </p>
                 <p className="food-description">{t("montreal")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("twistertitle")} <span> 8.25 </span>
+                  {t("twistertitle")} <span> 8.50 </span>
                 </p>
                 <p className="food-description">{t("twister")}</p>
               </li>
@@ -353,19 +353,19 @@ const Alacarte = ({ value }) => {
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("yasaimakititle")} <span> 7.75 </span>
+                  {t("yasaimakititle")} <span> 8.00 </span>
                 </p>
                 <p className="food-description">{t("mushiyasai")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("shoujinagetitle")} <span> 7.75 </span>
+                  {t("shoujinagetitle")} <span> 8.00 </span>
                 </p>
                 <p className="food-description">{t("shoujinage")}</p>
               </li>
               <li className="food-item">
                 <p className="food-title">
-                  {t("sicilititle")} <span> 7.75 </span>
+                  {t("sicilititle")} <span> 8.00 </span>
                 </p>
                 <p className="food-description">{t("sicili")}</p>
               </li>
