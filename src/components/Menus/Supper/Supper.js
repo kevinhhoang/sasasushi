@@ -189,12 +189,6 @@ const Supper = ({ value }) => {
                   </li>
                 </ul>
               </li>
-              <li className="food-item">
-                <p className="food-title">
-                  {t("seafoodyakiudontitle")} <span> 35.00 </span>
-                </p>
-                <p className="food-description">{t("seafoodyakiudon")}</p>
-              </li>
             </ul>
           </div>
 
