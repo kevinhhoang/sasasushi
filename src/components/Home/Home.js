@@ -14,7 +14,7 @@ const Home = () => {
         <p>
           {t("introtext1")}
           <br />
-          {t("introtext2")}
+          {t("introtext3")}
           <br />
         </p>
       </div>
