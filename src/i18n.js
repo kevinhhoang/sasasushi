@@ -29,7 +29,9 @@ const options = {
         // introtext2:
         // "According to the inspiration of the moment and fresh ingredients found at the market, our chef creates new dishes or can develop tasting menus.",
         introtext3:
-          "We would like to inform you that our restaurant will be closed from December 25 to December 30. We will be open again on December 31. We wish you a happy holiday season.",
+          "Kindly be informed that commencing November 1st, the restaurant's operating hours will be from Thursday through Sunday, specifically from 4:00PM to 8:00PM.",
+        // introtext4:
+        // "We would like to inform you that our restaurant will be closed from December 25 to December 30. We will be open again on December 31. We wish you a happy holiday season.",
 
         // footer
         addresstitle: "Location",
@@ -37,7 +39,7 @@ const options = {
         address2: "Candiac, QC J5R 4V4",
         hourstitle: "Hours",
         // hours1: "Lunch | Tuesday - Friday | 11:30pm - 2pm",
-        hours2: "Supper | Wednesday - Saturday | 4:00PM - 8:00PM",
+        hours2: "Supper | Thursday - Sunday | 4:00PM - 8:00PM",
         // hours3: "Supper | Thursday, Friday, Saturday | 5pm - 9pm",
         contacttitle: "Contact",
         contact1: "450.632.0559",
@@ -315,7 +317,9 @@ const options = {
         // introtext2:
         // "Selon l'inspiration du moment et les ingrédients frais trouvés au marché, notre chef crée de nouveaux plats ou peut élaborer des menus de dégustation.",
         introtext3:
-          "Nous tenons à vous informer que notre restaurant sera fermé du 25 Décembre au 30 Décembre. Nous serons de nouveau ouverts le 31 Décembre. Nous vous souhaitons de passer de bonne fêtes de fin d'année.",
+          "Veuillez noter qu'à partir du 1er novembre, les horaires d'ouverture du restaurant seront du jeudi au dimanche, plus précisément de 4:00PM à 8:00PM.",
+        // introtext4:
+        // "Nous tenons à vous informer que notre restaurant sera fermé du 25 Décembre au 30 Décembre. Nous serons de nouveau ouverts le 31 Décembre. Nous vous souhaitons de passer de bonne fêtes de fin d'année.",
 
         // footer
         addresstitle: "Location",
@@ -323,7 +327,7 @@ const options = {
         address2: "Candiac, QC J5R 4V4",
         hourstitle: "Heures",
         // hours1: "Dîner | Mardi - Vendredi | 11:30pm - 2pm",
-        hours2: "Souper | Mercredi - Samedi | 4:00PM - 8:00PM",
+        hours2: "Souper | Jeudi - Dimanche | 4:00PM - 8:00PM",
         // hours3: "Souper | Jeudi, Vendredi, Samedi | 5pm - 9pm",
         contacttitle: "Contact",
         contact1: "450.632.0559",
