@@ -29,7 +29,7 @@ const options = {
         // introtext2:
         // "According to the inspiration of the moment and fresh ingredients found at the market, our chef creates new dishes or can develop tasting menus.",
         introtext3:
-          "Kindly be informed that commencing November 1st, the restaurant's operating hours will be from Thursday through Sunday, specifically from 4:00PM to 8:00PM.",
+          "The restaurant will be closed from Monday September 2 to Wednesday September 11, and will reopen on Thursday September 12. We thank you for your support and understanding.",
         // introtext4:
         // "We would like to inform you that our restaurant will be closed from December 25 to December 30. We will be open again on December 31. We wish you a happy holiday season.",
 
@@ -246,8 +246,7 @@ const options = {
         makicombo: "Combo of Kamikaze & California",
 
         // dinner
-        harumaki:
-          "Japanese spring roll wrapped with shrimp, pork, and vegetables",
+        harumaki: "Japanese imperial rolls with shrimp, pork, and vegetables",
         dinnerpizza:
           "Rice cake topped with smoked salmon, crab stick, avocado, cucumber, and mayo",
         dinnerlanina:
@@ -317,7 +316,7 @@ const options = {
         // introtext2:
         // "Selon l'inspiration du moment et les ingrédients frais trouvés au marché, notre chef crée de nouveaux plats ou peut élaborer des menus de dégustation.",
         introtext3:
-          "Veuillez noter qu'à partir du 1er novembre, les horaires d'ouverture du restaurant seront du jeudi au dimanche, plus précisément de 4:00PM à 8:00PM.",
+          "Le restaurant sera fermé du lundi 2 septembre au mercredi 11 septembre, et rouvrira le jeudi 12 septembre. Nous vous remercions de votre soutien et de votre compréhension.",
         // introtext4:
         // "Nous tenons à vous informer que notre restaurant sera fermé du 25 Décembre au 30 Décembre. Nous serons de nouveau ouverts le 31 Décembre. Nous vous souhaitons de passer de bonne fêtes de fin d'année.",
 
@@ -543,8 +542,7 @@ const options = {
         makicombo: "Combo de Kamikaze & California",
 
         // dinner
-        harumaki:
-          "Rouleau de printemps japonais enrobé de crevettes, de porc et de légumes",
+        harumaki: "Rouleaux impériaux japonais avec crevettes, porc et légumes",
         dinnerpizza:
           "Galette de riz garnie de saumon fumé, bâtonnet de crabe, avocat, concombre et mayo",
         dinnerlanina:
