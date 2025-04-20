@@ -28,8 +28,8 @@ const options = {
           "At Sasa Sushi, we are always looking for something new and better.",
         introtext2:
           "According to the inspiration of the moment and fresh ingredients found at the market, our chef creates new dishes or can develop tasting menus.",
-        // introtext3:
-        // "The restaurant will be closed from Monday September 2 to Wednesday September 11, and will reopen on Thursday September 12. We thank you for your support and understanding.",
+        introtext3:
+          "Kindly note that prices may change without notice. Thank you for your understanding.",
         // introtext4:
         // "We would like to inform you that our restaurant will be closed from December 25 to December 30. We will be open again on December 31. We wish you a happy holiday season.",
 
@@ -68,7 +68,7 @@ const options = {
         ebi: "Shrimp",
         unagi: "Freshwater Eel",
         kanikama: "Crab Stick",
-        tako: "Octopus",
+        // tako: "Octopus",
         nigirionly: "(Nigiri Only)",
 
         grilledsalmonskintitle: "Grilled Salmon Skin",
@@ -315,10 +315,11 @@ const options = {
           "Chez Sasa Sushi, nous cherchons sans cesse à vous faire profiter de ce qu'il y a de nouveau et de meilleur.",
         introtext2:
           "Selon l'inspiration du moment et les ingrédients frais trouvés au marché, notre chef crée de nouveaux plats ou peut élaborer des menus de dégustation.",
-        // introtext3:
-        // "Le restaurant sera fermé du lundi 2 septembre au mercredi 11 septembre, et rouvrira le jeudi 12 septembre. Nous vous remercions de votre soutien et de votre compréhension.",
+        introtext3:
+          "Veuillez noter que les prix peuvent changer sans préavis. Merci de votre compréhension.",
         // introtext4:
         // "Nous tenons à vous informer que notre restaurant sera fermé du 25 Décembre au 30 Décembre. Nous serons de nouveau ouverts le 31 Décembre. Nous vous souhaitons de passer de bonne fêtes de fin d'année.",
+        // introtext5: "v.20.04.2025",
 
         // footer
         addresstitle: "Location",
@@ -355,7 +356,7 @@ const options = {
         ebi: "Crevette",
         unagi: "Anguille",
         kanikama: "Imitation de Crabe",
-        tako: "Pieuvre",
+        // tako: "Pieuvre",
         nigirionly: "(Nigiri Seulement)",
 
         grilledsalmonskintitle: "Peau de Saumon Grillé (6mcx)",
