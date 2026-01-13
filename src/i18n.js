@@ -30,8 +30,8 @@ const options = {
           "According to the inspiration of the moment and fresh ingredients found at the market, our chef creates new dishes or can develop tasting menus.",
         introtext3:
           "Kindly note that prices may change without notice. Thank you for your understanding.",
-        // introtext4:
-        // "We would like to inform you that our restaurant will be closed from December 25 to December 30. We will be open again on December 31. We wish you a happy holiday season.",
+        introtext4:
+          "We would like to inform you that our restaurant will be closed from January 22 2026 to February 18 2026. We will be open again on February 19 2026.",
 
         // footer
         addresstitle: "Location",
@@ -317,8 +317,8 @@ const options = {
           "Selon l'inspiration du moment et les ingrédients frais trouvés au marché, notre chef crée de nouveaux plats ou peut élaborer des menus de dégustation.",
         introtext3:
           "Veuillez noter que les prix peuvent changer sans préavis. Merci de votre compréhension.",
-        // introtext4:
-        // "Nous tenons à vous informer que notre restaurant sera fermé du 25 Décembre au 30 Décembre. Nous serons de nouveau ouverts le 31 Décembre. Nous vous souhaitons de passer de bonne fêtes de fin d'année.",
+        introtext4:
+          "Nous tenons à vous informer que notre restaurant sera fermé du 22 Janvier 2026 au 18 Février 2026. Nous serons de nouveau ouverts le 19 Février 2026.",
         // introtext5: "v.20.04.2025",
 
         // footer

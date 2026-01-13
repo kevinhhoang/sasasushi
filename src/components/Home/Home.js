@@ -19,6 +19,9 @@ const Home = () => {
           <br />
           {t("introtext3")}
           <br />
+          <br />
+          {t("introtext4")}
+          <br />
         </p>
       </div>
     </section>
