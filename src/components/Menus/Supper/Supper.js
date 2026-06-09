@@ -164,7 +164,7 @@ const Supper = ({ value }) => {
 
           <div className="food-category">
             <h2> Sushi - Sashimi </h2>
-            <h5 className="underline-category"></h5>
+            <div className="underline-category"></div>
             <ul>
               <li className="food-item">
                 <p className="food-title">
